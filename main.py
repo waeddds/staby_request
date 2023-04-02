@@ -4,3 +4,7 @@
 import os
 import request
 
+
+r = request.get("https://httpbin.org/ip")
+
+print(r.status())
